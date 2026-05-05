@@ -1,0 +1,21 @@
+TIMETABLE — Tech University
+======================================================================
+
+Monday
+----------------------------------------------------------------------
+  P1 08:00-09:00  Data Structures            CS-3A      R102     Dr. Ahmed Khan
+  P1 08:00-09:00  Digital Circuits Lab       EE-2A      LAB2     Prof. Lena Meyer
+  P2 09:00-10:00  Data Structures            CS-3A      R102     Dr. Ahmed Khan
+  P2 09:00-10:00  Digital Circuits           EE-2A      LAB1     Prof. Lena Meyer
+  P3 10:00-11:00  Data Structures            CS-3A      R102     Dr. Ahmed Khan
+  P3 10:00-11:00  Digital Circuits           EE-2A      LAB1     Prof. Lena Meyer
+  P4 11:00-12:00  Data Structures Lab        CS-3A      LAB1     Dr. Ahmed Khan
+  P5 12:00-13:00  Database Systems           CS-3A      R102     Prof. Sara Ali
+  P6 13:00-14:00  Database Systems           CS-3A      R102     Prof. Sara Ali
+  P7 14:00-15:00  Database Systems           CS-3A      R102     Prof. Sara Ali
+  P8 15:00-16:00  Linear Algebra             CS-3A      R102     Dr. James Wu
+
+Tuesday
+----------------------------------------------------------------------
+  P1 08:00-09:00  Linear Algebra             CS-3A      R102     Dr. James Wu
+

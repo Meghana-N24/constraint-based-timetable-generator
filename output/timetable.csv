@@ -1,0 +1,13 @@
+Session ID,Course,Department,Group,Day,Period,Start,End,Room,Room Name,Teacher
+CS301-1,Data Structures,Computer Science,CS-3A,Monday,1,08:00,09:00,R102,Lecture Hall B,Dr. Ahmed Khan
+EE201L-1,Digital Circuits Lab,Electronics,EE-2A,Monday,1,08:00,09:00,LAB2,Electronics Lab,Prof. Lena Meyer
+CS301-2,Data Structures,Computer Science,CS-3A,Monday,2,09:00,10:00,R102,Lecture Hall B,Dr. Ahmed Khan
+EE201-2,Digital Circuits,Electronics,EE-2A,Monday,2,09:00,10:00,LAB1,CS Lab 1,Prof. Lena Meyer
+CS301-3,Data Structures,Computer Science,CS-3A,Monday,3,10:00,11:00,R102,Lecture Hall B,Dr. Ahmed Khan
+EE201-1,Digital Circuits,Electronics,EE-2A,Monday,3,10:00,11:00,LAB1,CS Lab 1,Prof. Lena Meyer
+CS301L-1,Data Structures Lab,Computer Science,CS-3A,Monday,4,11:00,12:00,LAB1,CS Lab 1,Dr. Ahmed Khan
+CS302-1,Database Systems,Computer Science,CS-3A,Monday,5,12:00,13:00,R102,Lecture Hall B,Prof. Sara Ali
+CS302-2,Database Systems,Computer Science,CS-3A,Monday,6,13:00,14:00,R102,Lecture Hall B,Prof. Sara Ali
+CS302-3,Database Systems,Computer Science,CS-3A,Monday,7,14:00,15:00,R102,Lecture Hall B,Prof. Sara Ali
+MA201-1,Linear Algebra,Mathematics,CS-3A,Monday,8,15:00,16:00,R102,Lecture Hall B,Dr. James Wu
+MA201-2,Linear Algebra,Mathematics,CS-3A,Tuesday,1,08:00,09:00,R102,Lecture Hall B,Dr. James Wu

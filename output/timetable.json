@@ -1,0 +1,221 @@
+{
+  "timetable": [
+    {
+      "session_id": "CS301-1",
+      "course": "Data Structures",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 1,
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Dr. Ahmed Khan"
+    },
+    {
+      "session_id": "EE201L-1",
+      "course": "Digital Circuits Lab",
+      "department": "Electronics",
+      "student_group": "EE-2A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 1,
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "room": {
+        "id": "LAB2",
+        "name": "Electronics Lab",
+        "capacity": 35
+      },
+      "teacher": "Prof. Lena Meyer"
+    },
+    {
+      "session_id": "CS301-2",
+      "course": "Data Structures",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 2,
+        "start": "09:00",
+        "end": "10:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Dr. Ahmed Khan"
+    },
+    {
+      "session_id": "EE201-2",
+      "course": "Digital Circuits",
+      "department": "Electronics",
+      "student_group": "EE-2A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 2,
+        "start": "09:00",
+        "end": "10:00"
+      },
+      "room": {
+        "id": "LAB1",
+        "name": "CS Lab 1",
+        "capacity": 40
+      },
+      "teacher": "Prof. Lena Meyer"
+    },
+    {
+      "session_id": "CS301-3",
+      "course": "Data Structures",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 3,
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Dr. Ahmed Khan"
+    },
+    {
+      "session_id": "EE201-1",
+      "course": "Digital Circuits",
+      "department": "Electronics",
+      "student_group": "EE-2A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 3,
+        "start": "10:00",
+        "end": "11:00"
+      },
+      "room": {
+        "id": "LAB1",
+        "name": "CS Lab 1",
+        "capacity": 40
+      },
+      "teacher": "Prof. Lena Meyer"
+    },
+    {
+      "session_id": "CS301L-1",
+      "course": "Data Structures Lab",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 4,
+        "start": "11:00",
+        "end": "12:00"
+      },
+      "room": {
+        "id": "LAB1",
+        "name": "CS Lab 1",
+        "capacity": 40
+      },
+      "teacher": "Dr. Ahmed Khan"
+    },
+    {
+      "session_id": "CS302-1",
+      "course": "Database Systems",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 5,
+        "start": "12:00",
+        "end": "13:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Prof. Sara Ali"
+    },
+    {
+      "session_id": "CS302-2",
+      "course": "Database Systems",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 6,
+        "start": "13:00",
+        "end": "14:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Prof. Sara Ali"
+    },
+    {
+      "session_id": "CS302-3",
+      "course": "Database Systems",
+      "department": "Computer Science",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 7,
+        "start": "14:00",
+        "end": "15:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Prof. Sara Ali"
+    },
+    {
+      "session_id": "MA201-1",
+      "course": "Linear Algebra",
+      "department": "Mathematics",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Monday",
+        "period": 8,
+        "start": "15:00",
+        "end": "16:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Dr. James Wu"
+    },
+    {
+      "session_id": "MA201-2",
+      "course": "Linear Algebra",
+      "department": "Mathematics",
+      "student_group": "CS-3A",
+      "timeslot": {
+        "day": "Tuesday",
+        "period": 1,
+        "start": "08:00",
+        "end": "09:00"
+      },
+      "room": {
+        "id": "R102",
+        "name": "Lecture Hall B",
+        "capacity": 80
+      },
+      "teacher": "Dr. James Wu"
+    }
+  ],
+  "total_sessions": 12
+}

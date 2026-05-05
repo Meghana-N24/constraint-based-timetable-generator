@@ -1,0 +1,181 @@
+{
+  "university": {
+    "name": "Tech University",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "periods_per_day": 8,
+    "period_start_hour": 8,
+    "period_duration_mins": 60
+  },
+  "rooms": [
+    {
+      "id": "R101",
+      "name": "Lecture Hall A",
+      "capacity": 120,
+      "room_type": "auditorium",
+      "building": "Block A",
+      "floor": 1,
+      "has_projector": true,
+      "has_lab_equipment": false
+    },
+    {
+      "id": "R102",
+      "name": "Lecture Hall B",
+      "capacity": 80,
+      "room_type": "classroom",
+      "building": "Block A",
+      "floor": 1,
+      "has_projector": true,
+      "has_lab_equipment": false
+    },
+    {
+      "id": "LAB1",
+      "name": "CS Lab 1",
+      "capacity": 40,
+      "room_type": "lab",
+      "building": "Block B",
+      "floor": 2,
+      "has_projector": true,
+      "has_lab_equipment": true
+    },
+    {
+      "id": "LAB2",
+      "name": "Electronics Lab",
+      "capacity": 35,
+      "room_type": "lab",
+      "building": "Block C",
+      "floor": 1,
+      "has_projector": false,
+      "has_lab_equipment": true
+    },
+    {
+      "id": "S01",
+      "name": "Seminar Room 1",
+      "capacity": 25,
+      "room_type": "seminar",
+      "building": "Block A",
+      "floor": 3,
+      "has_projector": true,
+      "has_lab_equipment": false
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T001",
+      "name": "Dr. Ahmed Khan",
+      "department": "Computer Science",
+      "subjects": ["Data Structures", "Algorithms", "Python Programming"],
+      "unavailable_slots": [
+        {"day": "Wednesday", "period": 1},
+        {"day": "Friday", "period": 8}
+      ],
+      "max_periods_per_day": 4,
+      "max_periods_per_week": 16
+    },
+    {
+      "id": "T002",
+      "name": "Prof. Sara Ali",
+      "department": "Computer Science",
+      "subjects": ["Database Systems", "SQL", "Data Mining"],
+      "unavailable_slots": [
+        {"day": "Monday", "period": 1}
+      ],
+      "max_periods_per_day": 3,
+      "max_periods_per_week": 12
+    },
+    {
+      "id": "T003",
+      "name": "Dr. James Wu",
+      "department": "Mathematics",
+      "subjects": ["Calculus", "Linear Algebra", "Statistics"],
+      "unavailable_slots": [],
+      "max_periods_per_day": 5,
+      "max_periods_per_week": 20
+    },
+    {
+      "id": "T004",
+      "name": "Prof. Lena Meyer",
+      "department": "Electronics",
+      "subjects": ["Digital Circuits", "Signals", "Embedded Systems"],
+      "unavailable_slots": [
+        {"day": "Tuesday", "period": 5},
+        {"day": "Thursday", "period": 5}
+      ],
+      "max_periods_per_day": 4,
+      "max_periods_per_week": 16
+    }
+  ],
+  "courses": [
+    {
+      "id": "CS301",
+      "name": "Data Structures",
+      "department": "Computer Science",
+      "teacher_id": "T001",
+      "student_group": "CS-3A",
+      "num_students": 55,
+      "sessions_per_week": 3,
+      "requires_lab": false,
+      "requires_projector": true,
+      "priority": 3
+    },
+    {
+      "id": "CS301L",
+      "name": "Data Structures Lab",
+      "department": "Computer Science",
+      "teacher_id": "T001",
+      "student_group": "CS-3A",
+      "num_students": 35,
+      "sessions_per_week": 1,
+      "requires_lab": true,
+      "requires_projector": true,
+      "priority": 2
+    },
+    {
+      "id": "CS302",
+      "name": "Database Systems",
+      "department": "Computer Science",
+      "teacher_id": "T002",
+      "student_group": "CS-3A",
+      "num_students": 55,
+      "sessions_per_week": 3,
+      "requires_lab": false,
+      "requires_projector": true,
+      "priority": 2
+    },
+    {
+      "id": "MA201",
+      "name": "Linear Algebra",
+      "department": "Mathematics",
+      "teacher_id": "T003",
+      "student_group": "CS-3A",
+      "num_students": 55,
+      "sessions_per_week": 2,
+      "requires_lab": false,
+      "requires_projector": true,
+      "priority": 2
+    },
+    {
+      "id": "EE201",
+      "name": "Digital Circuits",
+      "department": "Electronics",
+      "teacher_id": "T004",
+      "student_group": "EE-2A",
+      "num_students": 30,
+      "sessions_per_week": 2,
+      "requires_lab": false,
+      "requires_projector": true,
+      "priority": 2
+    },
+    {
+      "id": "EE201L",
+      "name": "Digital Circuits Lab",
+      "department": "Electronics",
+      "teacher_id": "T004",
+      "student_group": "EE-2A",
+      "num_students": 30,
+      "sessions_per_week": 1,
+      "requires_lab": true,
+      "requires_projector": false,
+      "priority": 1
+    }
+  ]
+}
